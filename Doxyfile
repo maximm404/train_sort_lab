@@ -1,0 +1,24 @@
+# Doxyfile
+
+PROJECT_NAME           = "Сортировка расписания поездов"
+PROJECT_NUMBER         = "1.0"
+PROJECT_BRIEF          = "Лабораторная работа по методам программирования"
+OUTPUT_DIRECTORY       = docs
+OUTPUT_LANGUAGE        = Russian
+
+INPUT                  = main_relevant.cpp generate_data_relevant.cpp
+INPUT_ENCODING         = WINDOWS-1251
+FILE_PATTERNS          = *.cpp *.h
+RECURSIVE              = NO
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+
+HAVE_DOT               = NO
+CLASS_DIAGRAMS         = YES
+GENERATE_TREEVIEW      = YES
