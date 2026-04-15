@@ -28,7 +28,7 @@ private:
     std::mt19937 rng;  ///< Генератор случайных чисел Mersenne Twister
     
     std::uniform_int_distribution<int> trainNumberDist{1, 9999};    ///< Распределение номеров поездов
-    std::uniform_int_distribution<int> yearDist{2024, 2025};        ///< Распределение годов
+    std::uniform_int_distribution<int> yearDist{2025, 2026};        ///< Распределение годов
     std::uniform_int_distribution<int> monthDist{1, 12};            ///< Распределение месяцев
     std::uniform_int_distribution<int> dayDist{1, 28};              ///< Распределение дней
     std::uniform_int_distribution<int> hourDist{0, 23};             ///< Распределение часов
